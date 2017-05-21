@@ -1,0 +1,9 @@
+---
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/bob_live_sg
+    username: root
+
+  jpa:
+    show-sql: false
+    hibernate.ddl-auto: validate
